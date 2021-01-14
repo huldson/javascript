@@ -10,5 +10,5 @@ console.log(escola.substring(1,3))//ela vai contar do indice 1 vai selecionar 3 
 console.log('escola '.concat(escola).concat("!"))
 console.log(escola.replace(3, "e"))
 console.log(escola.replace(/\w/g,'q'))// para colocar letra tem que colocar entre /\w// g pra mudar tudo
-console.log('paulo,pedro,pato'.split(','))// transforma os elementos emum array  oque tu colocar dentro split  vai ser  o separador.
+console.log('paulo,pedro,pato'.split(','))// transforma os elementos em mfu array  oque tu colocar dentro split  vai ser  o separador.
     

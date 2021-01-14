@@ -10,4 +10,4 @@ nome: 'camisa polo',
 preco: 79.09,
 
 }// pode ser feito do jeito de prod1 e prod2 
-console.log(prod2)
+console.log(prod2)  

@@ -16,3 +16,4 @@ delete valores[0]// delta alque que voce selecionar
 console.log(valores)
 
 console.log(typeof valores)//sempre é um objeto em js o array 
+valores.split(", ")

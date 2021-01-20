@@ -13,4 +13,4 @@ console.log(resultado.toFixed(0))
 console.log(resto)
 
 }
-divisora(141, 4)
+divisora(46, 5)

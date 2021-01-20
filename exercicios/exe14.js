@@ -1,20 +1,23 @@
-function semana (dia){
-    switch(dia){
+function frutas (fruta){
+    switch(fruta){
     
     case'maça':
-    console.log("final de semana dia 1")
+    console.log("Não vendemos esta fruta aqui")
     break;
     
     
     case'kiwi':
-    console.log("dia de semana dia 2")
+    console.log("“Estamos com escassez de kiwis")
     break;
     
     
     case'melancia':
-    console.log("dia de semana dia 3")
+    console.log("Aqui está, são 3 reais o quilo")
     break;
-    
+    default:
+       console.log("erro") 
     
     }
     }
+let frut ="maça"
+    frutas(frut)

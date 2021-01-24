@@ -1,13 +1,13 @@
 function troco(nota){
-    if(typeof nota === 'number'){
+    if(typeof nota === 'number'){// verifica se o numero colocado é do tipo number
     let nota1=0,nota5=0,nota10=0,nota20=0,nota50=0,nota100=0
    
-     while(nota>=100){
-        nota100++
-        nota=nota-100
+     while(nota>=100){// ele testa pra ver se a variavel maior ou igual a cem faz ele entrar dentro do loop
+        nota100++//quantas vezes passou pelo loop logo, quantas notas sera necessario.
+        nota=nota-100// tira pra sair do loop 
    
     }
-    if(nota100!=0){
+    if(nota100!=0){// testa pra ver se foi usado, para não imprimir atoa com o zero notas usadas 
     console.log(nota100+' notas de R$100')
     }
 
